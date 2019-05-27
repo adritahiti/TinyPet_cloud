@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>TinyPetition</title>
+	<meta name="google-signin-client_id" content="482201921055-ep7bbmpk35l1s30soq6dv943q1c5tv0u.apps.googleusercontent.com">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="components/bootstrap-4.3.1-dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="assets/style/style.css"/>
+</head>
+<body>
+	<script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
+	<script src="https://apis.google.com/js/client.js?onload=init"></script>
+	<script src="https://unpkg.com/mithril/mithril.js"></script>
+
+	<div id="navigation"></div>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="menu" class="col-2 bg-dark sidebar"></div>
+			<div id="body" class="col-9"></div>
+		</div>
+	</div>
+
+	<script src="./modules/topTen/top.js"></script>
+	<script src="./modules/search/search.js"></script>
+	<script src="index.js"></script>
+
+	<footer class="bg-dark footer">
+		<div class="container">
+			<p class="m-0 text-center text-white">Simon ROUILLIER & Adrien ESCOUGNOU</p>
+		</div>
+	</footer>
+</body>
+</html>

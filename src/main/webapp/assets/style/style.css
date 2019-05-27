@@ -1,0 +1,51 @@
+#body {
+  margin-top: 100px !important;
+}
+
+#body {
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
+.custom {
+  width: 40px !important;
+}
+
+footer {
+  position: fixed;
+  height: 25px;
+  bottom: 0px;
+  width: 100%;
+  padding: 0px !important;
+}
+.footer{
+  padding: 0px !important;
+}
+.pagination {
+  margin-bottom: 15px;
+}
+.dropdown-menu{
+  display: initial !important;
+}
+#menu{
+  padding: 65px 0 0 0;
+  height: calc(100vh); 
+}
+.dropdown-item{
+  color: white;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.flex-column{
+  margin-top: 10px;
+}
+.btn-search{
+  margin: 0 auto;
+}
+.input-search{
+  width: 100% !important;
+  margin: 0px 5px 10px 5px !important;
+}
+.btn-margin-top{
+  margin-top: 10px;
+}
